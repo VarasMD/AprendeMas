@@ -1,0 +1,13 @@
+# Node.js y Angular
+node_modules/
+dist/
+.DS_Store
+
+# .NET
+bin/
+obj/
+.vscode/
+
+# General
+.env
+.idea/
