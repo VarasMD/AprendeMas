@@ -8,6 +8,10 @@ bin/
 obj/
 .vscode/
 
+# Configuración de IIS Express y Visual Studio  
+.vs/  
+Documents/IISExpress/  
+
 # General
 .env
 .idea/
