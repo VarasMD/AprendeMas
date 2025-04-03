@@ -8,8 +8,12 @@ bin/
 obj/
 .vscode/
 
-# Configuración de IIS Express y Visual Studio  
-.vs/  
+# Configuración de IIS Express y Visual Studio (archivos temporales) 
+.vs/
+*.vsidx
+*.vssscc
+*.user
+*.suo
 Documents/IISExpress/  
 
 # General
