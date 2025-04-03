@@ -3,18 +3,39 @@ node_modules/
 dist/
 .DS_Store
 
-# .NET
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.cache
+*.csproj.user
+
+# Archivos de compilación y dependencias
 bin/
 obj/
-.vscode/
+*.dll
+*.exe
+*.pdb
+*.log
 
-# Configuración de IIS Express y Visual Studio (archivos temporales) 
-.vs/
-*.vsidx
-*.vssscc
-*.user
-*.suo
-Documents/IISExpress/  
+# Archivos de configuración y build
+*.csproj.user
+*.dbmdl
+*.jfm
+*.ps1
+*.psm1
+*.tlog
+*.lastcodeanalysissucceeded
+
+# Archivos de paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+
+# Test y depuración
+TestResults/
+AppPackages/
 
 # General
 .env
