@@ -5,6 +5,7 @@ dist/
 
 # Visual Studio
 .vs/
+.vscode/
 *.suo
 *.user
 *.cache
