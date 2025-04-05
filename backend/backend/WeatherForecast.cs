@@ -1,4 +1,4 @@
-namespace backend
+namespace AprendeMas.Service
 {
     public class WeatherForecast
     {
